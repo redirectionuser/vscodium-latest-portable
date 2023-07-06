@@ -16,7 +16,7 @@
         "Git Bash": {
             "source": "Git Bash",
             "path": [
-                "${env:portableapps_dir}\\CommonFiles\\GitScmLatest\\App\\GitScmLatest\\bin\\bash.exe"
+                "${env:git_bin_dir}\\bash.exe"
             ],
         }
     },
