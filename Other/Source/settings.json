@@ -2,12 +2,15 @@
     "terminal.integrated.profiles.windows": {
 
         "PowerShell": {
+            "path": [
+                "${env:pwsh_bin_dir}\\powershell.exe",
+                "${env:windir}\\System32\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+            ],
             "source": "PowerShell",
             "icon": "terminal-powershell"
         },
         "Command Prompt": {
             "path": [
-                "${env:windir}\\Sysnative\\cmd.exe",
                 "${env:windir}\\System32\\cmd.exe"
             ],
             "args": [],
