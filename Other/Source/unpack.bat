@@ -1,3 +1,2 @@
-cd App
-7z.exe x vscodium*.zip -o"VSCodiumLatest"
-del vscodium*.zip
+7zTemp\7z.exe x App\vscodium*.zip -o"App\VSCodiumLatest"
+del App\vscodium*.zip
