@@ -23,5 +23,14 @@
             ],
         }
     },
-    "terminal.integrated.defaultProfile.windows": "Git Bash"
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "workbench.startupEditor": "none",
+    "editor.guides.bracketPairs": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "debug.openDebug": "openOnDebugBreak",
+    "debug.internalConsoleOptions": "openOnSessionStart",
+    "explorer.confirmDelete": false,
+    "git.openRepositoryInParentFolders": "never",
+    "editor.minimap.enabled": false,
+    "terminal.integrated.cursorBlinking": true,
 }
