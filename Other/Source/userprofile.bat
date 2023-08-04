@@ -2,6 +2,10 @@ if not exist "%~dp0..\..\..\CommonFiles\UserProfile" (
   mkdir "%~dp0..\..\..\CommonFiles\UserProfile"
 )
 
+if not exist "%~dp0..\..\..\CommonFiles\UserProfile\AppData\Local\Temp" (
+  mkdir "%~dp0..\..\..\CommonFiles\UserProfile\AppData\Local\Temp"
+)
+
 if not exist "%~dp0..\..\..\CommonFiles\UserProfile\AppData\Roaming\Microsoft\Windows" (
   mkdir "%~dp0..\..\..\CommonFiles\UserProfile\AppData\Roaming\Microsoft\Windows"
 )
