@@ -20,7 +20,7 @@
             "source": "Git Bash",
             "path": [
                 "${env:git_bin_dir}\\bash.exe"
-            ],
+            ]
         }
     },
     "terminal.integrated.defaultProfile.windows": "Git Bash",
@@ -33,4 +33,5 @@
     "git.openRepositoryInParentFolders": "never",
     "editor.minimap.enabled": false,
     "terminal.integrated.cursorBlinking": true,
+    "update.mode": "none"
 }
